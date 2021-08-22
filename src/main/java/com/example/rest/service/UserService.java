@@ -4,7 +4,7 @@ import com.example.rest.model.User;
 
 public interface UserService {
 
-    public Iterable<User> getAll();
+    Iterable<User> getAll();
 
-    public User getByUSerId(int id);
+    User getByUSerId(int id);
 }

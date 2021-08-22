@@ -2,7 +2,9 @@ package com.example.rest.service;
 
 import com.example.rest.model.User;
 import com.example.rest.repository.UserRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImp implements UserService {
 
     private final UserRepository userRepository;

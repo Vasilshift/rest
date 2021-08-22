@@ -1,0 +1,83 @@
+
+.div-header {
+    background: black;
+    color: white;
+}
+
+.div-right-header {
+    text-align: right;
+}
+
+.div-left-body {
+    padding: 0%;
+}
+
+.div-admin-user {
+    padding: 0;
+    margin: 12% 0%;
+}
+
+.admin-button {
+    background: #0f6ffd;
+    border-radius: 3px;
+    padding: 3%
+}
+
+.admin-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-button {
+    background: white;
+    border-radius: 3px;
+    padding: 3%;
+}
+
+.user-button a {
+    color: #0f6ffd;
+    text-decoration: none;
+}
+
+.div-right-body {
+    background: #f2f2f2;
+}
+
+.admin-panel {
+    margin: 2% 0% 0%;;
+}
+
+.nav-panel {
+    padding: 0;
+}
+
+.all-users {
+    border: solid 1px #e3e3e3;
+    border-radius: 5px;
+}
+
+.table-panel {
+    background: white;
+    border: solid 1px #e3e3e3;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#popup {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: none
+}
+
+#body-popup {
+    position: absolute;
+    background: white;
+    max-width: 400px;
+    max-height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
