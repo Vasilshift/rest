@@ -21,8 +21,10 @@ public class User {
 
     @Column(name = "age")
     private int age;
+
     @Column(name = "password")
     private String password;
+
     @ManyToMany(fetch = FetchType.EAGER)
     private Set<Role> roles;
 
