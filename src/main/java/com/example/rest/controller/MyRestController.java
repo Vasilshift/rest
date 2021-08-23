@@ -29,7 +29,7 @@ public class MyRestController {
 
     @GetMapping("/users")
     public ResponseEntity<Iterable<User>> apiGetAllUsers() {
-        Iterable<User> users = userService.getAll();
+        Iterable<User> users = userService.findAll();
         return users != null
                 ? new ResponseEntity<>(users, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -37,7 +37,7 @@ public class MyRestController {
 
     @GetMapping("/users/{id}")
     public User showUser(@PathVariable("id") int id) {
-        User user = userService.getByUSerId(id);
+        User user = userService.findById(id);
         return user;
     }
 
